@@ -1,0 +1,55 @@
+TDD = Test Driven Development
+    Desenvolvimento Direcionado por Testes
+                      BSTQB --> para ***
+
+
+O objetivo do TDD é criar o teste de unidade antes de codificar
+
+- Reunião de Sprint Planning
+> O time junto definiu 2 estórias
+> Essas estórias, os devs entenderam
+> que vão render 10 funcionalidades
+
+Eles são capazes de combinar e escrever:
+1 - o nome de cada funcionalidade
+2 - os parâmetros de entrada (input)
+3 - comentários sobre as funcionalidades
+4 - deixar um retorno temporário (mock)
+
+Poderiam fazer então os esqueletos de código para as 10 funcionalidades
+
+Pergunta?
+1 - Se eles possuem os esqueletos, eles podem criar os testes unitários?
+    R: Sim (se só depende do time) ou depende (se precisamos de recursos externos)
+2 - Esses testes de unidade inicialmente darão que resultado? (passar/falhar)
+    R: Cuidado - relógio quebrado mostra a hora certa duas vezes por dia.
+       Os testes devem falhar inicialmente porque ainda não está funcionando
+3 - Para que servem fazer 10 testes de unidade que não passam inicialmente?
+    Exemplo:
+    Dia                 Falhou       Passou
+    1                   10           0
+    2                    8           2           -> 20% pronto (métrica de progresso de desenvolvimento)
+    3                    5           5           -> 50% pronto (recuperado parte do atraso)
+    4                    6           4           -> 40% pronto (algo entregue no dia quebrou algo que já estava pronto)
+    5                    0          10           -> 100% pronto
+
+*** Resumindo TDD:
+- Criação dos testes de unidade antes da codificação principal
+- Execução pelo menos diária dos testes de unidade
+- Objetivos:    
+    - medir o progresso (software funcionando)
+    - ter testes básicos para garantir a estabilidade
+    (descobrir que algo que estava funcionando parou de funcionar)
+- Como reduzir o risco de fraude?
+    - através do code review
+      - o code review ajuda a:
+        - aumentar a produtividade da equipe
+        - melhora a qualidade do código
+        - criar padronização
+        - ajuda a disseminar boas práticas de codificação
+Teste de Unidade com grande cobertura (>=75%) garante o funcionamento básico (mínimo)
+    - Repetitivel
+    - Rápido de fazer e modificar
+    - Barato
+    - Aliado / faz parte da estratégia de integração continua (CI = Continuous integration)
+
