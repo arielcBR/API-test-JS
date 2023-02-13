@@ -1,0 +1,42 @@
+[
+  {
+    "id": 230794,
+    "username": "arielcampos94",
+    "firstName": "ariel",
+    "lastName": "luiz",
+    "email": "ariel.campos94@yahoo.com",
+    "password": "12345",
+    "phone": "51983122307",
+    "userStatus": 0
+  },
+  {
+    "id": 20893,
+    "username": "aldyfresca",
+    "firstName": "aldana",
+    "lastName": "fresca",
+    "email": "aldanafresca@gmail.com",
+    "password": "9874",
+    "phone": "1136606985",
+    "userStatus": 0
+  },
+  {
+    "id": 200200,
+    "username": "pietra-luiz",
+    "firstName": "pietra",
+    "lastName": "luiz",
+    "email": "pietra-luiz@live.com",
+    "password": "6541",
+    "phone": "51994402854",
+    "userStatus": 0
+  },
+  {
+    "id": 90174,
+    "username": "celinobarcelos",
+    "firstName": "celino",
+    "lastName": "barcelos",
+    "email": "celino-barcelos@hotmail.com",
+    "password": "36541",
+    "phone": "51984562147",
+    "userStatus": 0
+  }
+]

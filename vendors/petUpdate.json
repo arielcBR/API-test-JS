@@ -1,0 +1,22 @@
+{
+    "id": 7894,
+    "category": {
+      "id": 12,
+      "name": "Cats"
+    },
+    "name": "Chulo",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "vaccinated"
+      },
+      {
+        "id": 2,
+        "name": "castrated"
+      }
+    ],
+    "status": "unavailable"
+  }
